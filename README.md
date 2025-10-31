@@ -52,7 +52,7 @@ Se grafican las ecuaciones de movimiento
 
 ---
 
-### **4. Órbitas planetarias 
+### 4. Órbitas planetarias 
 
 Cálculo de parámetros orbitales de un planeta alrededor del Sol a partir de la **distancia al perihelio** y la **velocidad en el perihelio**:
 
