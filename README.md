@@ -1,13 +1,13 @@
-# 🧮 TAREA 1 – Programación Científica (Python + Colab)
+# TAREA 1 – Programación Científica 
 
 Este notebook contiene la resolución de varios ejercicios enfocados en **funciones, recursión y simulación numérica** en Python.  
 Fue desarrollado en **Google Colab**, e incluye el uso de bibliotecas matemáticas y gráficas como `math`, `numpy` y `matplotlib`.
 
 ---
 
-## 📘 Contenido
+## Contenido
 
-### **1️⃣ Clasificación de números**
+### **1. Clasificación de números**
 
 Diseño de funciones que determinan si un número pertenece a distintas clases matemáticas según la suma de sus divisores:
 
@@ -19,11 +19,10 @@ Diseño de funciones que determinan si un número pertenece a distintas clases m
 | Perfecto | Suma de todos los divisores = número | `numeros_perfectos(a)` |
 | Primo | Divisible solo por 1 y sí mismo | `numeros_primos(a)` |
 
-🧩 **Ejercicio opcional:** se muestran los primeros 30 números de cada clase.
 
 ---
 
-### **2️⃣ Recursión en Python**
+### ** 2. Recursión en Python**
 
 Exploración del concepto de **recursividad** mediante tres funciones matemáticas:
 
@@ -40,41 +39,22 @@ g(24, 36)         # 12
 
 ---
 
-### **3️⃣ Movimiento parabólico de un proyectil**
+### **3. Movimiento parabolico de un proyectil**
 
-Simulación del movimiento de un proyectil lanzado con:
+Simulacion del movimiento de un proyectil lanzado con:
 - Velocidad inicial: `v0 = 4.0 m/s`
 - Ángulo: `45°`
 - Gravedad: `g = 9.81 m/s²`
 
-Se grafican las ecuaciones de movimiento:
+Se grafican las ecuaciones de movimiento
 
-\[
-x(t) = v_0 \cos(\theta)t, \quad
-y(t) = v_0 \sin(\theta)t - \frac{1}{2}gt^2
-\]
-
-📈 El gráfico muestra la **trayectoria parabólica** hasta que el proyectil toca el suelo.
+ El gráfico muestra la **trayectoria parabólica** hasta que el proyectil toca el suelo.
 
 ---
 
-### **4️⃣ Órbitas planetarias (Problema adicional)**
+### **4. Órbitas planetarias 
 
 Cálculo de parámetros orbitales de un planeta alrededor del Sol a partir de la **distancia al perihelio** y la **velocidad en el perihelio**:
-
-\[
-v_2^2 - 2GM\frac{v_1}{\ell_1}v_2 - [v_1^2 - 2GM/\ell_1] = 0
-\]
-
-Una vez obtenido \(v_2\), se calculan:
-
-| Parámetro | Fórmula | Descripción |
-|------------|----------|-------------|
-| \( \ell_2 \) | \( \ell_1 v_1 / v_2 \) | Distancia en el afelio |
-| \( a \) | \( \frac{1}{2}(\ell_1 + \ell_2) \) | Semieje mayor |
-| \( b \) | \( \sqrt{\ell_1 \ell_2} \) | Semieje menor |
-| \( T \) | \( \frac{2\pi ab}{\ell_1 v_1} \) | Período orbital |
-| \( e \) | \( \frac{\ell_2 - \ell_1}{\ell_2 + \ell_1} \) | Excentricidad |
 
 Se prueban los resultados con:
 - 🌍 **Tierra:** \( \ell_1 = 1.4710×10^{11} \, m \), \( v_1 = 3.0287×10^4 \, m/s \)
@@ -82,7 +62,7 @@ Se prueban los resultados con:
 
 ---
 
-## 🧠 Temas aplicados
+##  Temas aplicados
 
 - Programación estructurada y modular  
 - Funciones recursivas  
@@ -90,30 +70,10 @@ Se prueban los resultados con:
 - Física del movimiento parabólico  
 - Leyes de Kepler y gravitación universal  
 
----
-
-## ⚙️ Requisitos
-
-- Python 3.x  
-- Google Colab o Jupyter Notebook  
-- Bibliotecas:
-  ```bash
-  pip install numpy matplotlib
-  ```
 
 ---
 
-## 🚀 Ejecución
+##  Autor
 
-1. Abrir el archivo **`TAREA_1.ipynb`** en Google Colab.  
-2. Ejecutar las celdas en orden.  
-3. Observar los resultados en consola y gráficos generados.  
-
----
-
-## 📚 Autor
-
-**[Tu nombre aquí]**  
-Curso: Programación Científica – Universidad X  
-Profesor: [Nombre del docente]  
-Fecha: [Mes/Año]
+**Carolina Andrea Rodas Castañeda**  
+Curso: Metodos Computacionales – Universidad De Antioquia  
