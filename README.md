@@ -56,10 +56,6 @@ Se grafican las ecuaciones de movimiento
 
 Cálculo de parámetros orbitales de un planeta alrededor del Sol a partir de la **distancia al perihelio** y la **velocidad en el perihelio**:
 
-Se prueban los resultados con:
-- 🌍 **Tierra:** \( \ell_1 = 1.4710×10^{11} \, m \), \( v_1 = 3.0287×10^4 \, m/s \)
-- ☄️ **Cometa Halley:** \( \ell_1 = 8.7830×10^{10} \, m \), \( v_1 = 5.4529×10^4 \, m/s \)
-
 ---
 
 ##  Temas aplicados
