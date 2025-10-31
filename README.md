@@ -22,7 +22,7 @@ Diseño de funciones que determinan si un número pertenece a distintas clases m
 
 ---
 
-### ** 2. Recursión en Python**
+### 2. Recursión en Python
 
 Exploración del concepto de **recursividad** mediante tres funciones matemáticas:
 
