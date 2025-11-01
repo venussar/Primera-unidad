@@ -56,18 +56,32 @@ Se grafican las ecuaciones de movimiento
 
 Cálculo de parámetros orbitales de un planeta alrededor del Sol a partir de la **distancia al perihelio** y la **velocidad en el perihelio**:
 
----
-
-##  Temas aplicados
-
-- Programación estructurada y modular  
-- Funciones recursivas  
-- Lógica matemática y teoría de números  
-- Física del movimiento parabólico  
-- Leyes de Kepler y gravitación universal  
-
 
 ---
+
+### 5. Series y Aproximaciones Numéricas
+
+Esta sección se enfoca en la implementación y el análisis de series matemáticas para la aproximación de funciones y constantes:
+
+| Ejercicio | Objetivo | Función Clave |
+| :--- | :--- | :--- |
+| **Aproximación de $\sin(x)$** | Graficar la función seno usando la **Serie de Taylor** (con $N$ términos) y compararla con la implementación de NumPy, analizando la convergencia. | `sine_taylor(x, N)` |
+| **Cálculo del Factorial** | Implementación del cálculo factorial (Ejercicio 2). | `calcular_factorial(num)` |
+| **Aproximación de $\pi$** | Uso de la **Serie de Leibniz** para aproximar el valor de $\pi$ (Ejercicio 3). | `leibniz_pi(terminos)` |
+
+---
+
+### 📚 Temas Aplicados
+
+* Programación estructurada y modular
+* Funciones recursivas
+* Lógica matemática y teoría de números
+* Física del movimiento parabólico
+* Leyes de Kepler y gravitación universal
+* Análisis de convergencia de series y aproximaciones
+* Visualización de datos y comparación de precisión
+
+
 
 ##  Autor
 
