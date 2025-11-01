@@ -59,7 +59,7 @@ Cálculo de parámetros orbitales de un planeta alrededor del Sol a partir de la
 
 ---
 
-### 5. Series y Aproximaciones Numéricas
+### 5. Series y Aproximaciones Numéricas // EN EL APARTADO LAB_1
 
 Esta sección se enfoca en la implementación y el análisis de series matemáticas para la aproximación de funciones y constantes:
 
